@@ -17,7 +17,7 @@ Questo richiederà un minimo di ricerca.*/
 1- chedere all utente i km
 2- calcolare il costo del viaggio in bbase alla tariffa kilometrica
 3- applicare gli sconti
-4- Mostrare in oagina il prezzo finale con i km
+4- Mostrare in pagina il prezzo finale con i km
 */
 
 
@@ -34,7 +34,13 @@ console.log(numberKm)
 
 // Fase elaborazione dati
 const price = numberKm * 0.21
-console.log(price )
+console.log('prezzo del biglietto', price )
+
+const discountUnderage = price - ((price / 100) *20)
+console.log('prezzo scontato al 20%', discountUnderage)
+
+const discountElderly = price - ((price / 100) *40)
+console.log('prezzo scontato al 40%', discountElderly)
 
 
 //Fase di output
