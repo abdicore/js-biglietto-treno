@@ -52,9 +52,12 @@ resultElement.innerText = 'Prezzo tariffa minori scontata al 20% è di euro ' + 
 
 } else if (userAge > 60) {
     console.log ('Prezzo tariffa Anziani scontata al 40% è di euro ', discountElderly)
-resultElement.innerText = 'Prezzo tariffa Anziani scontata al 40% è di euro ' + discountElderly
+    resultElement.innerText = 'Prezzo tariffa Anziani scontata al 40% è di euro ' + discountElderly
 
-} else {console.log ('il prezzo del biglietto è' ,price)}
+} else {
+    console.log ('il prezzo del biglietto è' ,price);
+    resultElement.innerText = 'Il prezzo del biglietto è ' +  price;
+}
 
 
 
