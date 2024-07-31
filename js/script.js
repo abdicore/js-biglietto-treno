@@ -45,4 +45,10 @@ const discountElderly = price - ((price / 100) *40)
 console.log('prezzo scontato al 40%', discountElderly)
 
 
+if (userAge < 18) {
+    console.log ('Prezzo tariffa minori scontata al 20%', discountUnderage)
+} else if (userAge > 60) {
+    console.log ('Prezzo tariffa Anziani scontata al 40%', discountElderly)
+} else {console.log ('il prezzo del biglietto è' ,price)}
+
 //Fase di output
