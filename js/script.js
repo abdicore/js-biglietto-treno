@@ -27,6 +27,7 @@ resultElement = document.getElementById ('result');
 
 // Fase di raccolta dati (chidere all'utente i km da percorrere)
 
+
 const numberKm = parseInt(prompt('Quanti Kilomtreri vuoi percorrere?','30'))
 console.log(numberKm)
 
@@ -52,3 +53,6 @@ if (userAge < 18) {
 } else {console.log ('il prezzo del biglietto è' ,price)}
 
 //Fase di output
+
+resultElement.innerText = 'il'
+
