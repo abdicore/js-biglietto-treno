@@ -23,6 +23,8 @@ Questo richiederà un minimo di ricerca.*/
 
 
 // Fase di richiamo elementi del dom
+resultElement = document.getElementById ('result');
+
 
 
 
@@ -30,6 +32,8 @@ Questo richiederà un minimo di ricerca.*/
 
 const numberKm = parseInt(prompt('Quanti Kilomtreri vuoi percorrere?','30'))
 console.log(numberKm)
+
+const underAge =
 
 
 // Fase elaborazione dati
@@ -44,3 +48,4 @@ console.log('prezzo scontato al 40%', discountElderly)
 
 
 //Fase di output
+result.innerText = 'Il prezzo del biglietto è'
