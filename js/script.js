@@ -25,15 +25,13 @@ Questo richiederà un minimo di ricerca.*/
 // Fase di richiamo elementi del dom
 resultElement = document.getElementById ('result');
 
-
-
-
 // Fase di raccolta dati (chidere all'utente i km da percorrere)
 
 const numberKm = parseInt(prompt('Quanti Kilomtreri vuoi percorrere?','30'))
 console.log(numberKm)
 
-const underAge =
+const userAge =parseInt(prompt('Quanti hanni hai?','20'))
+console.log(userAge)
 
 
 // Fase elaborazione dati
@@ -48,4 +46,3 @@ console.log('prezzo scontato al 40%', discountElderly)
 
 
 //Fase di output
-result.innerText = 'Il prezzo del biglietto è'
