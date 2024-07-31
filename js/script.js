@@ -33,6 +33,8 @@ console.log(numberKm)
 
 
 // Fase elaborazione dati
+const price = numberKm * 0.21
+console.log(price )
 
 
 //Fase di output
