@@ -48,11 +48,16 @@ console.log('prezzo scontato al 40%', discountElderly)
 
 if (userAge < 18) {
     console.log ('Prezzo tariffa minori scontata al 20%', discountUnderage)
+resultElement.innerText = 'Prezzo tariffa minori scontata al 20%', discountUnderag
+
 } else if (userAge > 60) {
     console.log ('Prezzo tariffa Anziani scontata al 40%', discountElderly)
+resultElement.innerText = 'Prezzo tariffa Anziani scontata al 40%', discountElderly
+
 } else {console.log ('il prezzo del biglietto è' ,price)}
+resultElement.innerText = 'Il prezzo del biglietto è ' + '' + price
+
 
 //Fase di output
 
-resultElement.innerText = 'il'
 
